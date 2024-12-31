@@ -86,7 +86,7 @@ if(isset($_COOKIE['admin_id'])){
    </div>
 
    <div class="box">
-      <h2>quick select</h2>
+      <h3>quick select</h3>
       <p>login or register</p>
       <a href="login.php" class="btn" style="margin-right: 1rem;">login</a>
       <a href="register.php" class="btn" style="margin-left: 1rem;">register</a>

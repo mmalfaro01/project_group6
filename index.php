@@ -612,7 +612,7 @@ if(isset($_POST['send'])){
          <div class="swiper-slide box">
             <img src="images/sample7.jpg" alt="">
             <h3>Anne Siangco</h3>
-            <p>lorem ipsum</p>
+            <p>Casaroyal Beach Siquijor is a place that I have seen people write favorable reviews about. I also feel that it wouldn’t disappoint me. With that said, I have booked my first stay at Agoda, a two nights and three days stay. I went ahead booking a standard room which I found to be well kept and nice. The room had a bathroom and cabinets which were clean too. The manager of the place Kim was very nice and helpful as well and even brought us some tasty carbonara. Thank you very much. Our stay was really nice during the time we spent there.</p>
          </div>
          <div class="swiper-slide box">
             <img src="images/sample.jpg" alt="">

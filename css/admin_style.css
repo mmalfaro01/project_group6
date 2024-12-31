@@ -89,7 +89,7 @@ section{
    border-bottom: var(--border);
    position: sticky;
    top: 0; left: 0; right: 0;
-   background-color: #2B1103;
+   background-color: white;
    z-index: 1000;
 }
 
@@ -103,26 +103,30 @@ section{
 
 .header .flex .logo{
    font-size: 2.5rem;
-   color: white;
+   color:#2B1103;;
 }
 
 .header .flex .navbar a{
    margin-left: 1rem;
    font-size: 1.8rem;
-   color: var(--sub-color);
+   color: #2B1103;
    padding: .5rem 1.5rem;
    border-radius: .5rem;
    text-transform: capitalize;
 }
 
+.header a{
+ color: white;
+}
+
 .header .flex .navbar a:hover{
-   background-color: var(--main-color);
-   color: var(--white);
+   background-color:#2B1103;
+   color: white;
 }
 
 .header #menu-btn{
    font-size: 2.5rem;
-   color: var(--main-color);
+   color: #2B1103;;
    display: none;
 }
 
@@ -194,11 +198,7 @@ section{
    color: white;
    padding-bottom: 1rem;
 }
-.dashboard .box-container h2{
-   font-size: 2.5rem;
-   color: var(--main-color)
-   padding-bottom: 1rem;
-}
+
 
 .dashboard .box-container p{
    border: var(--border);
