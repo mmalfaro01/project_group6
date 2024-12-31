@@ -249,7 +249,7 @@ if(isset($_POST['send'])){
 
 <section class="about" id="about">
 
-   <div class="row revers">
+   <div class="row">
             <div class="content">
                 <h3>About</h3>
                 <p>
@@ -262,7 +262,7 @@ if(isset($_POST['send'])){
                     turquoise waters.
                 </p>
             </div>
-            <div id="map" style="width: 100%; height: 500px;"></div>
+            <div id="map" style="width: 50%; height: 300px;"></div>
 
         </div>
         </div>
@@ -556,7 +556,7 @@ if(isset($_POST['send'])){
                <br>- Email: casaroyalbeachfrontsiquijor@gmail.com
               <br> - Live chat: available on our website
 
-               <br>Please provide your booking reference number and cancellation reason. We'll process your request promptly."
+               <br>Please provide your booking reference number and cancellation reason. We'll process your request promptly.
 
                </p>
          </div>
