@@ -42,7 +42,7 @@ if(isset($_POST['delete'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="../css/admin_style.css">
-   <link rel="icon" href="../images/favicon4.png" type="image/png">
+    <link rel="icon" href="../../images/favicon4.png" type="image/png">
 
 </head>
 <body>

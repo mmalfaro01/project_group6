@@ -244,6 +244,19 @@ section{
    margin: 3rem 0;
    flex-wrap: wrap;
 }
+.about .row .content h3{
+   font-size: 3rem;
+   color: var(--sub-color);
+   text-transform: capitalize;
+   margin-bottom: 1rem;
+}
+
+.about .row h3{
+   font-size: 3rem;
+   color: var(--sub-color);
+   text-transform: capitalize;
+   margin-bottom: 1rem;
+}
 
 .services .box-container{
    display: grid;

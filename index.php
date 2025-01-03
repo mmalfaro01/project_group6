@@ -262,14 +262,15 @@ if(isset($_POST['send'])){
                     turquoise waters.
                 </p>
             </div>
-            <div id="map" style="width: 50%; height: 300px;"></div>
+            <div id="map" style="width: 100%; height: 300px;"></div>
 
         </div>
         </div>
 
 
-   <<div class="row">
+   <div class="row">
             <div class="image">
+              
                 <img src="images/rp-img-1.jpg" alt="">
             </div>
             <div class="content">
