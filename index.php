@@ -268,9 +268,8 @@ if(isset($_POST['send'])){
         </div>
 
 
-   <div class="row">
+   <<div class="row">
             <div class="image">
-              
                 <img src="images/rp-img-1.jpg" alt="">
             </div>
             <div class="content">
@@ -576,7 +575,6 @@ if(isset($_POST['send'])){
             <br>Bank Transfer: Wire transfer (international)
             <br>
             Please note:
-                <br>Secure transactions: Our website uses SSL encryption.
                 <br>No hidden fees: All prices include taxes.
                 <br>Payment terms: Full payment due upon booking.
          </p>
