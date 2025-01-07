@@ -83,7 +83,7 @@ if(isset($_POST['send'])){
 </head>
 <body>
 
-<?php include 'components/user_header.php'; ?>
+<?php include 'components/user_header_new.php'; ?>
 
 <!-- home section starts  -->
 
@@ -147,7 +147,7 @@ if(isset($_POST['send'])){
 <section class="availability" id="availability">
 
   <!-- <form action="bookings.php" method="post">-->
-   <form action="check_availability1.php" method="POST">
+   <form action="check_availability.php" method="POST">
       <div class="flex">
          <div class="box">
             <p>check in <span>*</span></p>
@@ -226,7 +226,7 @@ if(isset($_POST['send'])){
                     Hot & Cold Shower<br>
                     Toiletries
                 </p>
-                <a href="index1.php" class="btn">make a reservation</a>
+                <a href="#reservation" class="btn">make a reservation</a>
             </div>
         </div>
 
@@ -246,7 +246,7 @@ if(isset($_POST['send'])){
                     Hot & Cold Shower<br>
                     Toiletries<br>
                 </p>
-                <a href="index1.php" class="btn">make a reservation</a>
+                <a href="#reservation" class="btn">make a reservation</a>
             </div>
         </div>
 
@@ -266,7 +266,7 @@ if(isset($_POST['send'])){
                     Hot & Cold Shower<br>
                     Toiletries
                 </p>
-                <a href="index1.php" class="btn">make a reservation</a>
+                <a href="#reservation" class="btn">make a reservation</a>
             </div>
         </div>
 
@@ -289,7 +289,7 @@ if(isset($_POST['send'])){
                     Toiletries<br>
                     Ocean-view balcony<br>
                 </p>
-                <a href="index1.php" class="btn">make a reservation</a>
+                <a href="#reservation" class="btn">make a reservation</a>
             </div>
         </div>
 
@@ -315,7 +315,7 @@ if(isset($_POST['send'])){
                     Ocean-view<br>
                     balcony<br>
                 </p>
-                <a href="index1.php" class="btn">make a reservation</a>
+                <a href="#reservation" class="btn">make a reservation</a>
             </div>
         </div>
 
@@ -373,6 +373,56 @@ if(isset($_POST['send'])){
 
 <!-- reservation section starts  -->
 
+<section class="reservation" id="reservation">
+   <form action="submit_booking.php" method="POST">
+      <h3>MAKE A RESERVATION</h3>
+      <div class="flex">
+         <div class="box">
+            <p>FULL NAME <span>*</span></p>
+            <input type="text" name="name"required placeholder="enter your name" class="input">
+         </div>
+         <div class="box">
+            <p>EMAIL ADDRESS <span>*</span></p>
+            <input type="email" name="email"  required placeholder="enter your email" class="input">
+         </div>
+         <div class="box">
+            <p>CONTACT NUMBER <span>*</span></p>
+            <input type="number" name="number" maxlength="10" min="1" max="9999999999" required placeholder="enter your number" class="input">
+         </div>
+         <div class="box">
+            <p>ROOMS <span>*</span></p>
+            <select name="accommodationType" class="input" required>
+               <option value="royal-palm-ac">Royal Palm Room (2 persons Aircondition) - ₱1,500</option>
+               <option value="royal-palm-fan">Royal Palm Room (2 persons Fan) - ₱1,000</option>
+               <option value="bayfront-5">Bayfront Room 5 (2 persons) - ₱1,500</option>
+               <option value="bayfront-6">Bayfront Room 6 (4 persons) - ₱2,500</option>
+               <option value="suite-7-2">Suite Room 7 (2 persons) - ₱1,800</option>
+               <option value="suite-7-4">Suite Room 7 (4 persons) - ₱3,500</option>
+               <option value="suite-8-2">Suite Room 8 (2 persons) - ₱1,800</option>
+               <option value="suite-8-4">Suite Room 8 (4 persons) - ₱3,500</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>CHECK IN <span>*</span></p>
+            <input type="date" name="checkin" class="input" required>
+         </div>
+         <div class="box">
+            <p>CHECK OUT <span>*</span></p>
+            <input type="date" name="checkout" class="input" required>
+         </div>
+         <div class="box">
+            <p>GUESTS <span>*</span></p>
+            <input type="number" name="guests" maxlength="10" min="1" required class="input">
+         </div>
+         <div class="box">
+            <p>PRICE <span>*</span></p>
+            <input type="number" name="price" readonly class="input">
+         </div>
+      </div>
+      <input type="submit" value="book now" class="btn">
+      
+   </form>
+</section>
 
 <!-- reservation section ends -->
 

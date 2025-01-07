@@ -16,3 +16,4 @@ document.querySelectorAll('input[type="number"]').forEach(inputNumbmer => {
       if(inputNumbmer.value.length > inputNumbmer.maxLength) inputNumbmer.value = inputNumbmer.value.slice(0, inputNumbmer.maxLength);
    }
 });
+     
