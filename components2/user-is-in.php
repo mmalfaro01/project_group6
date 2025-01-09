@@ -14,6 +14,7 @@
    <nav class="navbar">
       <a href="index.php#home">HOME</a>
       <a href="index.php#about">ABOUT</a>
+      <a href="index.php#reservation">RESERVATION</a>
       <a href="index.php#gallery">GALLERY</a>
       <a href="index.php#contact">CONTACT</a>
       <a href="index.php#reviews">REVIEW</a>
@@ -22,4 +23,5 @@
    </nav>
 
 </section>
+
 <!-- header section ends -->

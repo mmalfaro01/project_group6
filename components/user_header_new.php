@@ -12,12 +12,12 @@
 
 </div>
    <nav class="navbar">
-      <a href="index.php#home">HOME</a>
-      <a href="index.php#about">ABOUT</a>
-      <a href="index.php#reservation">RESERVATION</a>
-      <a href="index.php#gallery">GALLERY</a>
-      <a href="index.php#contact">CONTACT</a>
-      <a href="index.php#reviews">REVIEW</a>
+      <a href="newpage.php#home">HOME</a>
+      <a href="newpage.php#about">ABOUT</a>
+      <a href="newpage.php#gallery">GALLERY</a>
+      <a href="newpage.php#contact">CONTACT</a>
+      <a href="newpage.php#reservation">RESERVATION</a>
+      <a href="newpage.php#reviews">REVIEW</a>
       <a href="booking.php">BOOKINGS</a>
 
 

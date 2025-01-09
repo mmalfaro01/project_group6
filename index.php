@@ -85,6 +85,7 @@ if(isset($_POST['send'])){
 
 <?php include 'components/user_header.php'; ?>
 
+
 <!-- home section starts  -->
 
 <section class="home" id="home">
@@ -419,7 +420,7 @@ if(isset($_POST['send'])){
 
       <div class="faq">
          <h3 class="title">frequently asked questions</h3>
-         <div class="box active">
+         <div class="box">
             <h3>how to cancel?</h3>
             <p>
                <br> 1. Visit to your account on our website.

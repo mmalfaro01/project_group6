@@ -36,7 +36,7 @@
             echo "<div class='message'>
                       <p>Registration successfully!</p>
                   </div> <br>";
-            echo "<a href='index2.php'><button class='btn'>Login Now</button>";
+            echo "<a href='newpage.php'><button class='btn'>Login Now</button>";
          
 
          }
